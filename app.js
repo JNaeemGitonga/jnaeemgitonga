@@ -122,14 +122,13 @@ const myWork =
                 <p class="project-description">
                     NPM package for front/back-end.
                 </p>
-                <ul class="project-stack">
-                    <ul class="project-stack">
-                        <li class="project-stack-item">
-                            <img class="react-logo" src="./pix/javascript.png">
-                        </li>
-                    </ul>
-				</ul>
-				<p class='name'>Javascript</p>
+                <div class="project-stack">
+                    <div class="project-stack">
+                        <img class="react-logo" src="./pix/javascript.png">
+					</div>
+				<p class='name'>Javascript</p>	
+				</div>
+				
                 <div class="project-links">
                     <ul>
                         <li class="project-link project-link-live">
