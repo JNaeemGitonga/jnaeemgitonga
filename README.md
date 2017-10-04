@@ -6,4 +6,4 @@ I built this using Javascript and a little JQuery.
 
  Seriously, thanks for dropping by!
 
- [My Portfolio](https://prob8.github.io/my-portfolio/)
+ [My Portfolio Webpage](https://prob8.github.io/jnaeemgitonga/)
