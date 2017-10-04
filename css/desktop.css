@@ -34,6 +34,12 @@ footer {
     border-bottom:1px solid black;
 }
 
+.work-and-stuff{
+   
+    margin-top: -150px;
+    margin-bottom: 150px;
+}
+
 .project {
     margin-bottom:100px;
     
@@ -75,11 +81,14 @@ footer {
 }
 
 .project-stack-item {
-    margin:0 15px;
+    margin:auto;
+    margin: auto;
+    position: relative;
+    display: inline-block;
 }
 p.name {
     font-size: 15px;
-    display:inline;
+    display:block;
     margin:0 10px;
 }
 .all-container{
@@ -132,12 +141,20 @@ p.name {
     margin: 0 20px
 }
 
-/* @font-face {
-    font-family: 'Merriweather', serif;
-    src: url('Merriweather-Regular.ttf') format('ttf');
-  }
-   */
- 
+.react {
+    height:auto;
+    width: 32px;
+}
+
+.node {
+    height:auto;
+    width:21px;
+}
+
+.logo {
+    margin:auto;
+    text-align:center;
+}
 * {
     box-sizing: border-box;
     font-family: 'Noticia Text', serif;
@@ -149,25 +166,14 @@ p.name {
 
 .project-stack{
     padding:0;
-    margin-bottom:-13px;
+    margin-bottom:13px;
+    text-align:center;
 }
 
 @media(min-width: 720px){
   
     .my-work{
         margin-top:0;
-    }
-
-    .react-logo{
-        height:auto;
-        width: 32px;
-        margin-bottom:15px;
-    }
-
-    .node-logo{
-        height:auto;
-        width:23px;
-        margin-left:10px;
     }
 
     ul {
@@ -177,14 +183,6 @@ p.name {
     }
 
     
-
-    svg{
-    height:auto;
-    width:30px;
-    margin-top:15px;
-    margin-left:15px;
-    }
-
     .main-nav{
         margin:auto;
         /* height:auto; */
@@ -192,6 +190,7 @@ p.name {
         
        
     }
+
     .work-and-stuff{
         margin:auto;
         padding:10px;
@@ -199,6 +198,7 @@ p.name {
         margin-top: -150px;
         margin-bottom: 150px;
     }
+
     body{
         padding:2px;
         margin:0;
