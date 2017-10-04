@@ -1,0 +1,19 @@
+@media(max-width: 720px){
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+
+    .react-logo{
+        height:auto;
+        width: 32px;
+    }
+
+    .node-logo{
+        height:auto;
+        width:23px;
+    }
+}    

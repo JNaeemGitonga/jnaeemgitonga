@@ -1,0 +1,148 @@
+@media(max-width: 720px){
+    
+
+   *{ 
+         box-sizing: border-box;
+         font-family: 'Rubik', sans-serif;
+    }
+
+    body{
+        padding:2px;
+        margin:0;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    header{
+        text-align:center;
+        padding:10px;
+    }
+
+
+    h1{
+        text-align:center;
+        margin-bottom:0;
+    }
+
+    h2{
+        margin-top:18px;
+    }
+
+    h3{
+        margin-top:15px;
+        font-size:20px
+    }
+ 
+    ul{
+        padding-left:0;
+    }
+
+    div{
+        text-align:center;
+        height:50px;
+        
+      
+    }
+
+    li a{
+        margin:8px;
+
+    }
+
+    a{
+        color: #1E162A;
+    }
+
+    nav{
+        height:40px;
+        width:100%;
+    }
+
+    title{
+        display:none;
+    }
+   
+    nav ul{
+        padding:0;
+    }
+
+    li{
+        /*color:#D5D382;*/
+        display: inline;
+        list-style: none;
+        text-decoration:none;
+        text-align: center;
+        
+    }  
+
+    img{
+        max-width: 100%;
+    }
+
+    label{
+        margin-top:10px;
+    }
+
+    svg{
+        height:auto;
+        width:25px;
+        margin-top:10px;
+    }
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+    #caption {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+        text-align: center;
+        color: #ccc;
+        padding: 10px 0;
+        height: 150px;
+    }
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+} 
+
+   
+
+    svg{
+    height:auto;
+    width:30px;
+    margin-top:15px;
+    }
+
+
+    .git-logo{
+    height:auto;
+    width:18px;
+    }
+
+    .email-logo{
+        height:auto;
+        width:22px;
+        margin-bottom: 1px;
+    }
+
+    .linkedin-logo{
+        height:auto;
+        width:33px;
+    }
+}
+
