@@ -2,7 +2,7 @@ const myWork =
     `<section class="work animated" id="work">
             <h1 class="my-work">myWork</h1>
             <section class="project">
-                <h2>Learningo!</h2>
+                <h2 class='title'>Learningo!</h2>
                 <a href="https://sheltered-lowlands-31144.herokuapp.com"><img class="project-image" src="./pix/loginPage.png"
                     alt="Login page Learningo "></a>
                 <p class="project-description">
@@ -42,7 +42,7 @@ const myWork =
 				<div class='border-bottom'><div>
 			</section>
 			<section class="project">
-            <h2>What's my Horoscope?</h2>
+            <h2 class='title'>What's my Horoscope?</h2>
             <a href="https://findmyhoroscope.herokuapp.com" ><img class="project-image" src="./pix/myHoroscope.png"
                 alt="horoscope screenshot"></a>
             <p class="project-description">
@@ -50,7 +50,6 @@ const myWork =
             </p>
             <ul class="project-stack">
                 <li class="project-stack-item"> 
-                   <!--<i class="icon ion-social-nodejs 3X"></i>-->
                    <img class="node-logo" src="./pix/nodelogo.png">
                 </li>
                 <li class="project-stack-item">
@@ -80,7 +79,7 @@ const myWork =
 			<div class='border-bottom'><div>
         </section>
             <section class="project">
-                <h2>Polls 'R' Us</h2>
+                <h2 class='title'>Polls 'R' Us</h2>
                 <a href="http://vast-hamlet-89391.herokuapp.com/"><img class="project-image" src="./pix/pollsRUs.png"
                     alt="Every vote counts"></a>
                 <p class="project-description">
@@ -117,7 +116,7 @@ const myWork =
 				<div class='border-bottom'><div>
             </section>
             <section class="project">
-                <h2>Arithmetik</h2>
+				<h2 class='title'>Arithmetik</h2>
                 <a href="#"><img class="project-image" src="./pix/npmSC.png"
                     alt="npm screenshot"></a>
                 <p class="project-description">
@@ -152,8 +151,7 @@ const myWork =
 const contactMe = `
         <section class="contact  animated" id="contact">
             <div class="contact-form"> 
-                <h2 class='contact-me'>contactMe</h2>
-                <!--<h3><a href="blackb8r@gmail.com">blackb8r@gmail.com</a></h3>-->
+                <h2 class='contact-me'>contactMe</h2>   
                 <form style="text-align:center;" class="form-style-4" action="https://formspree.io/blackb8r@gmail.com"
                     method="POST">
                     <label for="contact-form-name">Your Name</label>
@@ -170,21 +168,19 @@ const contactMe = `
 
 
 const aboutMe =
-         
             `
             <img id="standard" class="headshot" src="./pix/standardPic.jpeg"
             alt="JNG" href='#'>
         <h2 class='about-me'>aboutMe</h2>
         <p class="about" >  
-            Hi, I'm J. Naeem Gitonga, a full-stack web developer 
-            in Atlanta, USA. I say Atlanta, USA because it's the only city in Georgia like it.
-            It should be considered as such. I began my web dev career September 2016, after 
-            three years of owning and operating a transportation company. I decided one day that I was 
-            passionate about technology and I haven't looked back. I use React and Node.js to build web 
-            apps which leave you with a minty fresh taste in your mouth! Seriously, I love to build 
-            cool things. Web and mobile apps is where "it's" at, and so am I. 
-            Outside of coding I enjoy listening to <a class="this-video"
-            href="https://youtu.be/So91SDCSPVU?list=PLNuRwkhrI49HLEXwv6zDPYVyaLqzp_mf-">this song</a> on repeat.
+		Hi, I'm J. Naeem Gitonga, a full-stack web developer 
+		in Atlanta, USA. I began my web dev career in September 2016, after 
+		three years of owning and operating a transportation company. I decided one day that I was 
+		passionate about technology and I haven't looked back. I use React and Node.js to build web 
+		apps which leave you with a minty fresh taste in your mouth! Seriously, I love to build 
+		cool things. Web and mobile apps is where "it's" at, and so am I. 
+		Outside of coding I enjoy listening to <a class="this-video"
+		href="https://youtu.be/So91SDCSPVU?list=PLNuRwkhrI49HLEXwv6zDPYVyaLqzp_mf-">this song</a> on repeat.
         </p>
             `;
 

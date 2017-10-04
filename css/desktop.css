@@ -18,6 +18,7 @@ body{
 .border-bottom {
     width:75%;
     margin: 0 auto;
+
     border-bottom:1px solid black;
 }
 
@@ -38,19 +39,27 @@ body{
 .my-work {
     font-family: 'Open Sans', sans-serif;
     font-size:1.6em;
-    border-bottom:1px solid black;
+    margin:0 auto;
+    width:72%;
+    border-bottom: 1px solid black;
+    margin-bottom:52px
 }
 
 .about-me {
     font-family: 'Open Sans', sans-serif;
     font-size:1.6em;
-    border-bottom:1px solid black;
+    margin:0 auto;
+    width:72%;
+    border-bottom: 1px solid black;
+    margin-bottom:52px;
 }
 
 .contact-me {
     font-family: 'Open Sans', sans-serif;
     font-size:1.6em;
-    border-bottom:1px solid black;
+    margin:0 auto;
+    width:72%;
+    border-bottom: 1px solid black;
 }
 
 .project-stack-item {
@@ -76,7 +85,9 @@ p.name {
   
 }
 
-
+.title {
+    font-size:1.5em;
+}
 
 .my-title {
     margin-top:-10px;
