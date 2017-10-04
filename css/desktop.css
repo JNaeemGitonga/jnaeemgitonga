@@ -12,6 +12,19 @@ h1 {
 body{
     overflow-x:hidden;
 }
+
+footer {
+    position: relative;
+    position: relative;
+    margin: 8rem 0 0 0;
+    padding: 0.5rem 15px;
+    border-top: #EBF2F6 1px solid;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    line-height: 1.75em;
+    color: #BBC7CC;
+    text-align: center;
+}
 .project-image {
     padding:20px;
 }
@@ -133,13 +146,13 @@ p.name {
     .react-logo{
         height:auto;
         width: 32px;
-        margin-left:2.5px;
+        margin-left:15px;
     }
 
     .node-logo{
         height:auto;
         width:23px;
-        margin-right:5px;
+        margin-left:10px;
     }
 
     ul {
