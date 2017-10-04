@@ -510,7 +510,15 @@ var pJS = function(tag_id, params){
       /* the particle */
       var p = pJS.particles.array[i];
 
-     
+      // var d = ( dx = pJS.interactivity.mouse.click_pos_x - p.x ) * dx + ( dy = pJS.interactivity.mouse.click_pos_y - p.y ) * dy;
+      // var f = -BANG_SIZE / d;
+      // if ( d < BANG_SIZE ) {
+      //     var t = Math.atan2( dy, dx );
+      //     p.vx = f * Math.cos(t);
+      //     p.vy = f * Math.sin(t);
+      // }
+
+      /* move the particle */
       if(pJS.particles.move.enable){
         var ms = pJS.particles.move.speed/2;
         p.x += p.vx * ms;
@@ -985,7 +993,14 @@ var pJS = function(tag_id, params){
           process();
         }
 
-     
+        // bang - slow motion mode
+        // if(!pJS.tmp.repulse_finish){
+        //   if(d <= repulseRadius){
+        //     process();
+        //   }
+        // }else{
+        //   process();
+        // }
         
 
       }else{
