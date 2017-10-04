@@ -130,9 +130,7 @@ const myWork =
 						<img class="react logo" src="./pix/javascript.png">
 						<p class='name'>Javascript</p>
 					</div>
-					
 				</div>
-				
                 <div class="project-links">
                     <ul>
                         <li class="project-link project-link-live">
@@ -147,8 +145,6 @@ const myWork =
             </section>
            
     </section>
-
-   
    `;
 
 const contactMe = `
