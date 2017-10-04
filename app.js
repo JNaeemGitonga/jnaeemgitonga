@@ -184,7 +184,7 @@ const aboutMe =
             `;
 
 const vectoredPic = `
-                <img id='vectored' class='headshot animated flip' src='vectored.me.png'>
+                <img id='vectored' class='headshot animated flip' src='./vectored.me.png'>
 `;
 
 const standardPic = `
