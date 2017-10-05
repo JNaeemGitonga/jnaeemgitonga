@@ -448,3 +448,8 @@ label{
     width:33px;
 }
 }   
+
+.test {
+    height:200px;
+    width:auto;
+}

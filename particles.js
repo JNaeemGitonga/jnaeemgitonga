@@ -20,7 +20,7 @@ var pJS = function(tag_id, params){
     },
     particles: {
       number: {
-        value: 80,
+        value: 400,
         density: {
           enable: true,
           value_area: 800
@@ -228,11 +228,13 @@ var pJS = function(tag_id, params){
 
 
   pJS.fn.canvasPaint = function(){
-    pJS.canvas.ctx.fillRect(0, 0, pJS.canvas.w, pJS.canvas.h);
+	pJS.canvas.ctx.fillRect(0, 0, pJS.canvas.w, pJS.canvas.h);
   };
 
   pJS.fn.canvasClear = function(){
-    pJS.canvas.ctx.clearRect(0, 0, pJS.canvas.w, pJS.canvas.h);
+	pJS.canvas.ctx.clearRect(0, 0, pJS.canvas.w, pJS.canvas.h);
+	
+	
   };
 
 
@@ -421,7 +423,7 @@ var pJS = function(tag_id, params){
 
     pJS.canvas.ctx.fillStyle = color_value;
     pJS.canvas.ctx.beginPath();
-
+    
     switch(p.shape){
 
       case 'circle':
@@ -485,7 +487,7 @@ var pJS = function(tag_id, params){
     }
 
     pJS.canvas.ctx.closePath();
-
+    
     if(pJS.particles.shape.stroke.width > 0){
       pJS.canvas.ctx.strokeStyle = pJS.particles.shape.stroke.color;
       pJS.canvas.ctx.lineWidth = pJS.particles.shape.stroke.width;
@@ -1516,7 +1518,8 @@ window.particlesJS = function(tag_id, params){
   if(canvas != null){
     pJSDom.push(new pJS(tag_id, params));
   }
-
+  
+  
 };
 
 window.particlesJS.load = function(tag_id, path_config_json, callback){
