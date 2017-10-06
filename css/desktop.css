@@ -449,6 +449,15 @@ label{
 }
 }   
 
+.express {
+    width:50px;
+    height:auto;
+}
+
+.mongo {
+    width:40px;
+    height:auto;
+}
 .test {
     height:200px;
     width:auto;
