@@ -6,4 +6,4 @@ I built this using Javascript and a little JQuery.
 
  Seriously, thanks for dropping by!
 
- [My Portfolio Webpage](www.jahanaeemgitonga.com)
+ [My Portfolio Webpage](https://www.jahanaeemgitonga.com/)
